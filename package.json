@@ -1,0 +1,27 @@
+{
+  "name": "uba",
+  "version": "1.0.0",
+  "description": "用户分析的sdk",
+  "main": "rollup.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/fengyayun/uba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fengyayun/uba/issues"
+  },
+  "homepage": "https://github.com/fengyayun/uba#readme",
+  "devDependencies": {
+    "rollup": "^2.78.1",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-typescript2": "^0.33.0",
+    "typescript": "^4.7.4"
+  }
+}
