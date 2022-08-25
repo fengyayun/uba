@@ -9,7 +9,7 @@
  */
 export interface defaultOptions  {
   uuid: string | undefined,
-  requestUrl: string | undefined,
+  requestUrl: string | URL,
   historyTracker: boolean,
   hashTracker: boolean,
   domTracker: boolean,
@@ -18,7 +18,7 @@ export interface defaultOptions  {
   jsError: boolean,
 }
 export interface options extends Partial<defaultOptions> {
-  requestUrl: string | undefined,
+  requestUrl: string | URL,
 }
 export enum TrackerConfig {
   version = '1.0.0'

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./dist/index.js"></script>
+</head>
+<body>
+  <div>
+    <button target-key="11" id="button">按钮</button>
+  </div>
+  <script>
+    const tracker = new window.tracker({
+        requestUrl:"http://localhost:3000/user",
+        historyTracker:true,
+        domTracker:true
+    })
+    window.onload = function(){
+      document.getElementById('button').onclick = function (e){
+        console.log('11')
+      }
+    }
+  </script>
+</body>
+</html>

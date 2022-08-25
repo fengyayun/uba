@@ -1,8 +1,10 @@
 {
-  "name": "uba",
+  "name": "fyy_uba",
   "version": "1.0.0",
   "description": "用户分析的sdk",
-  "main": "rollup.config.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "browser":"dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
